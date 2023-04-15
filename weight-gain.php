@@ -60,11 +60,7 @@ require('db.php');
             <div class="menu_text">
               <ul>
                 <div class="togle_3">
-                  <!-- <div class="menu_main">
-                    <div class="padding_left0"><a href="#">Register</a>
-                    <span class="padding_left0"><a href="#">Login</a></span></div>
-                  </div>
-                  <div class="shoping_bag"><img src="images/search-icon.png"></div> -->
+                 
                 </div> 
                 <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -86,27 +82,21 @@ require('db.php');
       </div>
     </div>
     <!-- header section end -->
+
+
     <!-- about section start -->
     <div class="about_section layout_padding">
       <div class="container">
-        
+       <h1>My Diet</h1> 
       <div id="main_slider" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="services_section_2 layout_padding">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <div class="box_section active">
-                      <!-- <div class="tiles_img"></div> -->
-                      <!-- <h3 class="tile_text active">Tile & Grout</h3> -->
-                      <p class="lorem_text active">Excellent personal training. Trainers who really care and go above and beyond to help you achieve your goals. regular updates that feels more personal. Highly recommended! <br>-Shaun</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="box_section">
-                      <!-- <div class="tiles_img_1"></div> -->
-                      <!-- <h3 class="tile_text">Carpet Cleaning</h3> -->
-                      <p class="lorem_text">“Getfit has been awesome to me. Their trainers are exceptional, the overall vibe is great and I have had nothing but good experiences.”<br>-Benetlin</p>
+                        
+                    <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-16 at 3.37.39 AM.jpeg"></p>
                     </div>
                   </div>
                 </div>
@@ -115,18 +105,10 @@ require('db.php');
             <div class="carousel-item">
               <div class="services_section_2 layout_padding">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <div class="box_section active">
-                      <!-- <div class="tiles_img"></div> -->
-                      <!-- <h3 class="tile_text active">Tile & Grout</h3> -->
-                      <p class="lorem_text active">"The best thing about this get fit idea is that I can do it at home is extremely convenient I can see great results"<br>-Divs</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="box_section">
-                      <!-- <div class="tiles_img_1"></div> -->
-                      <!-- <h3 class="tile_text">Carpet Cleaning</h3> -->
-                      <p class="lorem_text">"The most convenient thing is that i can do this whenever I want.”<br>-Mithun</p>
+                      
+                    <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-16 at 3.46.57 AM.jpeg"></p>
                     </div>
                   </div>
                 </div>
@@ -135,23 +117,51 @@ require('db.php');
             <div class="carousel-item">
               <div class="services_section_2 layout_padding">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <div class="box_section active">
-                      <!-- <div class="tiles_img"></div> -->
-                      <!-- <h3 class="tile_text active">Tile & Grout</h3> -->
-                      <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-15 at 1.29.24 PM.jpeg"></p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="box_section">
-                      <!-- <div class="tiles_img_1"></div> -->
-                      <!-- <h3 class="tile_text">Carpet Cleaning</h3> -->
-                      <p class="lorem_text">“I have used many fitness websites and i can honestly say that Getfit is one of the best fitness and health website. I would highly recommend It. ”<br>-Zash</p>
+                      <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-16 at 3.45.43 AM.jpeg"></p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-16 at 3.37.39 AM.jpeg"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-16 at 3.46.57 AM.jpeg"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-16 at 3.45.43 AM.jpeg"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
           <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
             <i class="fa fa-angle-left"></i>
@@ -161,18 +171,104 @@ require('db.php');
           </a>
         </div>
 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>My Exercises</h1> 
+      <div id="exercise_slider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                    <p  class="lorem_text active"><img src="images/10 Cardio Exercises You Can Do Anywhere (1).gif"></p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/Carve a Shredded Six-pack with our Ultimate Abs Workout.gif"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/Exercise Jump GIF - Exercise Jump - Discover & Share GIFs (1).gif"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/The Truth About The Big Three.gif"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/Do This 11-Minute Workout First Thing In The Morning.gif"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="services_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box_section active">
+                      <p  class="lorem_text active"><img src="images/10 Cardio Exercises You Can Do Anywhere (2).gif"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#exercise_slider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#exercise_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+
 
 
       </div>
     </div>
     <!-- about section end -->
-    <!-- copyright section start -->
-    <!-- <div class="copyright_section">
-      <div class="container">
-        <p class="copyright_text">Copyright 2020 All Right Reserved By <a href="https://html.design">Free html  Templates</a></p>
-      </div>
-    </div> -->
-    <!-- copyright section end -->
+    
+
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -208,6 +304,7 @@ require('db.php');
      function closeNav() {
      document.getElementById("myNav").style.width = "0%";
     }
+    // $('#exercise_slider').carousel();
     </script>  
 </body>
 </html>
