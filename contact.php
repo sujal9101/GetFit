@@ -60,11 +60,6 @@ require('db.php');
             <div class="menu_text">
               <ul>
                 <div class="togle_3">
-                  <!-- <div class="menu_main">
-                    <div class="padding_left0"><a href="#">Register</a>
-                    <span class="padding_left0"><a href="#">Login</a></span></div>
-                  </div>
-                  <div class="shoping_bag"><img src="images/search-icon.png"></div> -->
                 </div> 
                 <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -115,11 +110,6 @@ require('db.php');
               </div>
             </div>
             <div class="col-md-6">
-              <!-- <div class="map_main">
-                <div class="map-responsive">
-                  <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="280" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
-                </div>
-              </div> -->
               <div class="social_icon">
                 <ul>
                   <li><a href="#"><img src="images/fb-icon1.png"></a></li>
@@ -134,13 +124,6 @@ require('db.php');
       </div>
     </div>
     <!-- footer section end -->
-    <!-- copyright section start -->
-    <!-- <div class="copyright_section">
-      <div class="container">
-        <p class="copyright_text">Copyright 2020 All Right Reserved By <a href="https://html.design">Free html  Templates</a></p>
-      </div>
-    </div> -->
-    <!-- copyright section end -->
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>

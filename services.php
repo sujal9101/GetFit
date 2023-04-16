@@ -92,15 +92,13 @@ require('db.php');
                 <div class="row">
                   <div class="col-md-6">
                     <div class="box_section active">
-                      <!-- <div class="tiles_img"></div> -->
-                      <!-- <h3 class="tile_text active">Tile & Grout</h3> -->
+                      
                       <p class="lorem_text active">Excellent personal training. Trainers who really care and go above and beyond to help you achieve your goals. regular updates that feels more personal. Highly recommended! <br>-Shaun</p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="box_section">
-                      <!-- <div class="tiles_img_1"></div> -->
-                      <!-- <h3 class="tile_text">Carpet Cleaning</h3> -->
+                      
                       <p class="lorem_text">“Getfit has been awesome to me. Their trainers are exceptional, the overall vibe is great and I have had nothing but good experiences.”<br>-Benetlin</p>
                     </div>
                   </div>
@@ -112,15 +110,13 @@ require('db.php');
                 <div class="row">
                   <div class="col-md-6">
                     <div class="box_section active">
-                      <!-- <div class="tiles_img"></div> -->
-                      <!-- <h3 class="tile_text active">Tile & Grout</h3> -->
+                      
                       <p class="lorem_text active">"The best thing about this get fit idea is that I can do it at home is extremely convenient I can see great results"<br>-Divs</p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="box_section">
-                      <!-- <div class="tiles_img_1"></div> -->
-                      <!-- <h3 class="tile_text">Carpet Cleaning</h3> -->
+                      
                       <p class="lorem_text">"The most convenient thing is that i can do this whenever I want.”<br>-Mithun</p>
                     </div>
                   </div>
@@ -132,15 +128,13 @@ require('db.php');
                 <div class="row">
                   <div class="col-md-6">
                     <div class="box_section active">
-                      <!-- <div class="tiles_img"></div> -->
-                      <!-- <h3 class="tile_text active">Tile & Grout</h3> -->
+                      
                       <p class="lorem_text active">“The trainers are really nice to me and I have been struggling with my weight for some time but because of getfit I have been able to lose nearly 10kg of my weight" <br>-Sam</p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="box_section">
-                      <!-- <div class="tiles_img_1"></div> -->
-                      <!-- <h3 class="tile_text">Carpet Cleaning</h3> -->
+                     
                       <p class="lorem_text">“I have used many fitness websites and i can honestly say that Getfit is one of the best fitness and health website. I would highly recommend It. ”<br>-Zash</p>
                     </div>
                   </div>

@@ -85,6 +85,8 @@ require('db.php');
 
     <br><br>
     <br><br>
+    <center><h1><b><FONT COLOR="#393a40">Welcome! To Your personalise Weight Lossing Plan</h1><center>
+    <br><br>
                         
   <div class="water_tracker">
       <center><h1>Water Intake Tracker</h1><center>

@@ -106,29 +106,11 @@ require('db.php');
                 <!-- <h4 class="client_text">Supports</h4> -->
               </div>
             </div>
-            <!-- <div class="col-lg-3 col-sm-6">
-              <div class="choose_box">
-                <h1 class="client_taital">905+</h1>
-                <h4 class="client_text">Awards</h4>
-              </div>
-            </div> -->
           </div>
-          <!-- <div class="image_3"><img src="images/img-3.png"></div>
-          <div class="get_bt"><a href="#">Get A quote</a></div> -->
-        <!-- </div>
-          <div class="image_3"><img src="images/img-3.png"></div>
-          <div class="get_bt"><a href="#">Get A quote</a></div>
-        </div> -->
       </div>
     </div>
     <!-- choose section end -->
-    <!-- copyright section start -->
-    <!-- <div class="copyright_section">
-      <div class="container">
-        <p class="copyright_text">Copyright 2020 All Right Reserved By <a href="https://html.design">Free html  Templates</a></p>
-      </div>
-    </div> -->
-    <!-- copyright section end -->
+    
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>

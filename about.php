@@ -60,11 +60,6 @@ require('db.php');
             <div class="menu_text">
               <ul>
                 <div class="togle_3">
-                  <!-- <div class="menu_main">
-                    <div class="padding_left0"><a href="#">Register</a>
-                    <span class="padding_left0"><a href="#">Login</a></span></div>
-                  </div>
-                  <div class="shoping_bag"><img src="images/search-icon.png"></div> -->
                 </div> 
                 <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

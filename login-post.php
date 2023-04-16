@@ -21,7 +21,5 @@ if (isset($_POST) && !empty($_POST)) {
     else{
         header('Location: login.php');
     }
-    // echo "<pre>",print_r($user);
-    // header('Location: login.php');
 }
 ?>

@@ -60,11 +60,7 @@ require('db.php');
             <div class="menu_text">
               <ul>
                 <div class="togle_3">
-                  <!-- <div class="menu_main">
-                    <div class="padding_left0"><a href="#">Register</a>
-                    <span class="padding_left0"><a href="#">Login</a></span></div>
-                  </div>
-                  <div class="shoping_bag"><img src="images/search-icon.png"></div> -->
+                  
                 </div> 
                 <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -128,22 +124,7 @@ require('db.php');
             </div>
             <div class="images_main">
               <div class="row">
-                <!-- <div class="col-sm-7">
-                  <h2 class="consectetur_text_1">Nonsectetur</h2>
-                  <p class="dummy_text_1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
-                </div> -->
-                <div class="col-sm-5">
-                  <!-- <div class="image_4"><img src="images/img-7.png"></div>
-                  <h6 class="follow_text">Follow Us</h6>
-                  <div class="follow_social_icon">
-                    <ul>
-                      <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                      <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                      <li><a href="#"><img src="images/linkden-icon.png"></a></li>
-                      <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                    </ul>
-                  </div> -->
-                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -151,13 +132,7 @@ require('db.php');
       </div>
     </div>
     <!-- team section end -->
-    <!-- copyright section start -->
-    <!-- <div class="copyright_section">
-      <div class="container">
-        <p class="copyright_text">Copyright 2020 All Right Reserved By <a href="https://html.design">Free html  Templates</a></p>
-      </div>
-    </div> -->
-    <!-- copyright section end -->
+    
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
