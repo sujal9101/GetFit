@@ -12,7 +12,7 @@ require('db.php');
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <!-- site metas -->
-<title>About</title>
+<title>My Plan</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content=""> 
@@ -83,11 +83,32 @@ require('db.php');
     </div>
     <!-- header section end -->
 
+    <br><br>
+    <br><br>
+                        
+  <div class="water_tracker">
+      <center><h1>Water Intake Tracker</h1><center>
+    <form>
+      <label for="amount">Add water in glasses:</label>
+      <input type="number" id="amount" min=1 max=100 name="amount">
+      <input type="button" value="Add" onclick="addWater()">
+    </form>
+    <p id="waterConsumed">You have consumed 0 glasses of water today.</p>
+    <script>
+      let waterConsumed = 0;
+      function addWater() {
+        let amount = parseInt(document.getElementById("amount").value);
+        waterConsumed += amount;
+        document.getElementById("waterConsumed").innerHTML = `You have consumed ${waterConsumed} glasses of water today.`;
+      }
+    </script>
+  </div>
+
 
     <!-- about section start -->
     <div class="about_section layout_padding">
       <div class="container">
-       <h1>My Diet</h1> 
+       <center><h1>My Diet</h1> <center>
       <div id="main_slider" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -96,7 +117,7 @@ require('db.php');
                   <div class="col-md-12">
                     <div class="box_section active">
                         
-                    <p  class="lorem_text active"><img src="images/WhatsApp Image 2023-04-16 at 3.37.39 AM.jpeg"></p>
+                    <p  class="lorem_text active "><img src="images/WhatsApp Image 2023-04-16 at 3.37.39 AM.jpeg"></p>
                     </div>
                   </div>
                 </div>
@@ -174,6 +195,37 @@ require('db.php');
         <br>
         <br>
         <br>
+
+        <h1>Diet Tracker</h1>
+	
+	<form>
+		<fieldset>
+			<legend>Log Meal</legend>
+			<label for="meal_calories">Calories consumed:</label>
+			<input type="number" id="meal_calories" name="meal_calories">
+			<input type="submit" value="Log Meal">
+		</fieldset>
+	</form>
+	<fieldset>
+		<legend>View Progress</legend>
+		<p>Calories consumed: <span id="calorie_total">0</span>/<span id="calorie_goal">2000</span></p>
+	</fieldset>
+	<script>
+		var calorie_goal = 2000;
+		var calorie_total = 0;
+		document.querySelector('#calorie_goal').textContent = calorie_goal;
+		document.querySelector('form').addEventListener('submit', function(event) {
+			event.preventDefault();
+			if (event.target.elements.meal_calories) {
+				var meal_calories = parseInt(event.target.elements.meal_calories.value);
+				calorie_total += meal_calories;
+				document.querySelector('#calorie_total').textContent = calorie_total;
+			}
+		});
+	</script>
+  <br>
+  <br>
+  <br>
         <br>
         <br>
         <h1>My Exercises</h1> 
@@ -261,9 +313,6 @@ require('db.php');
             <i class="fa fa-angle-right"></i>
           </a>
         </div>
-
-
-
       </div>
     </div>
     <!-- about section end -->
